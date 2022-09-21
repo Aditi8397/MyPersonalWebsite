@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My personal website | About</title>
+</head>
+<body>
+
+<header>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">My personal website</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section id="contact-form" class="bg-light py">
+    <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+        <form action="process.php">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="mobileno">Mobile Number:</label>
+                <input type="number" name="mobileno" id="mobileno" pattern="[6-9]{1}[0-9]{9}" maxlength="10"/>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn" disabled>Submit</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
