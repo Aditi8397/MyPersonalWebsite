@@ -24,6 +24,12 @@ p {
 }
 
 /* Utility Classes*/
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
 .text-primary {
     color: #f7c08a;
 }
@@ -35,6 +41,32 @@ p {
     padding: 13px 20px;
     border: none;
     cursor: pointer;
+}
+.btn:hover {
+    background: #f7c08a;
+    color: #333333;
+}
+.btn-light {
+    background: #f4f4f4;
+    color: #333333;
+}
+
+.bg-dark {
+    background: #333333;
+    color: #ffffff;
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333333;
+}
+.l-heading {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+/* Padding*/
+.py {
+    padding: 30px 0;
 }
 
 /* Navbar*/
@@ -49,6 +81,7 @@ p {
 }
 #navbar h1 {
     float: left;
+    padding-top: 20px;
 }
 #navbar ul {
     list-style: none;
@@ -91,6 +124,20 @@ p {
 /* Home Info*/
 #home_info {
     height: 450px;
+}
+#home_info .info-img {
+    float: left;
+    width: 50%;
+    background: url("../img/photo-1.jpg") no-repeat;
+    min-height: 100%;
+}
+#home_info .info-content {
+    text-align: center;
+    padding-top: 170px;
+    overflow: hidden;
+}
+#home_info .info-content p {
+    padding-bottom: 30px;
 }
 
 /* Features */
