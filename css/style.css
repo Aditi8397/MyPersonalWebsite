@@ -59,6 +59,13 @@ p {
     background: #f4f4f4;
     color: #333333;
 }
+.bg-primary {
+    background: #f7c08a;
+    color: #333333;
+}
+.clr {
+    clear: both;
+}
 .l-heading {
     font-size: 40px;
     line-height: 1.2;
@@ -190,4 +197,12 @@ p {
 #contact-form textarea:focus {
     outline: none;
     border-color: #f7c08a;
+}
+
+ /* Footer*/
+#main-footer {
+    text-align: center;
+    background: #444444;
+    color: #ffffff;
+    padding: 20px;
 }
